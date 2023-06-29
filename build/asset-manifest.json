@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AnkithaKK/Card-Listing.git/static/css/main.ce380d96.css",
+    "main.js": "/AnkithaKK/Card-Listing.git/static/js/main.c403e720.js",
+    "static/js/787.54cd7cf5.chunk.js": "/AnkithaKK/Card-Listing.git/static/js/787.54cd7cf5.chunk.js",
+    "index.html": "/AnkithaKK/Card-Listing.git/index.html",
+    "main.ce380d96.css.map": "/AnkithaKK/Card-Listing.git/static/css/main.ce380d96.css.map",
+    "main.c403e720.js.map": "/AnkithaKK/Card-Listing.git/static/js/main.c403e720.js.map",
+    "787.54cd7cf5.chunk.js.map": "/AnkithaKK/Card-Listing.git/static/js/787.54cd7cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce380d96.css",
+    "static/js/main.c403e720.js"
+  ]
+}

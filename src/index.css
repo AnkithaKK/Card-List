@@ -1,0 +1,220 @@
+button {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #ccc;
+}
+
+.tab-navigation{
+  margin-left: 50px;
+}
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin-top: -30px;
+}
+.filter-block {
+  position: absolute;
+  top: 100%;
+  left: 1240px;
+  height: 150px;
+  width: 225px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1;
+}
+.button-group {
+  display:contents;
+  height: 6px;
+
+}
+
+.apply-button {
+  background-color: #dacdcd;
+  width: 110px;
+}
+
+.clear-button {
+  background-color: #db2162;
+  width: 110px;
+}
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: #dddddd;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.search-icon::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("C:\Users\Ankitha K\OneDrive\Desktop\React\card-listing\public\searchbutton.png"); /* Replace with your search icon image path */
+  background-size: cover;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+}
+
+.search-section input {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #45a049;
+}
+
+.type{
+  margin-left: 30px;
+}
+.cardholder-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cardholder-section label {
+  margin-right: 10px;
+}
+.cardholder-dropdown{
+  margin-top: 40px;
+  margin-left: -90px;
+  width: 200px;
+  border-color: rgb(213, 203, 203);
+}
+.all-cards-tab {
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card-item {
+  border: 1px solid #dacdcd;
+  border-radius: 8px;
+  padding: 10px;
+  width: calc(28.33% - 20px);
+  left: 50px;
+  margin-bottom: 20px;
+}
+
+.card-details {
+  margin-bottom: 10px;
+}
+
+.card-name {
+  margin-left: 20px;
+  font-weight: bold;
+  color:#0b0000
+}
+
+.budget-name {
+  margin-top: 5px;
+  margin-left: 20px;
+  color: #888888;
+}
+.cylindrical-bar {
+  display: flex;
+  height: 7px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 28px;
+  margin-right: 20px;
+}
+
+.spent {
+  
+  background-color: #309335; /* Adjust color as needed */
+}
+
+.balance {
+  background-color: #db2162; /* Adjust color as needed */
+}
+.dot {
+  /* display: inline-block; */
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: -9px;
+  margin-right: 5px;
+}
+
+.spent-dot {
+  background-color: #309335;  /* Adjust color as needed */
+}
+
+.balance-dot {
+  background-color:#db2162; /* Adjust color as needed */
+}
+
+.spent-val{
+  margin-left: 240px;
+}
+.balance-val{
+  margin-left: 225px;
+}
+
+.legend {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+}
+
+.legend li .dot {
+  margin-top: 2px;
+}
+
+.card-table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card-table th,
+.card-table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.card-table th {
+  color:#766d6d;
+  background-color: #f7f3f3;
+}
+
+.card-table td {
+  color: #444444;
+}
+
+
+
+
